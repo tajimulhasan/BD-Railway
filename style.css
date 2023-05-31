@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation&family=Lobster&family=Manrope&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&family=Raleway&family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,500&family=Sigmar&family=Yeseva+One&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .25px;
+}
+.main-header{
+    padding: 15px 0 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    position:fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav-pareant{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.original-nav {
+  flex: 60%;
+
+  
+
+ 
+}
+.nav-logo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+  
+}
+ .logo-img img{
+        width: 60px;
+        height: 60px;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        margin-right: 10px;
+    
+}
+.logo-title {
+   font-size: 21px;
+   color: #DA924E;
+   font-weight: 700;
+   font-family: 'Roboto', sans-serif;
+   
+}
+.logo-title span{
+      
+}
+
+.nav-ele ul{
+         display: flex;
+         float: right ;
+     
+         /* width: 40%; */
+         /* margin-right: ; */
+      
+      
+   
+ 
+}
+
+    
+.nav-ele ul li{
+    list-style: none;
+    padding: 6px 15px;
+   
+    
+
+}
+.nav-ele ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-ele ul  li a:hover{
+    color: #0F2444;
+    border-bottom: 2px solid #0F2444;
+  
+}
+
+/* 
+first section */
+/* start-------- */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 1px;
+    gap: 11px;
+   
+ 
+    
+   
+}
+.tag-margin{
+    margin-bottom: 8px;
+}
+.form-details{
+     width: 575px;
+     height: 297px;
+     margin-left: 0%;
+     margin-top: 50px;
+     padding-right: 15px;
+ 
+
+}
+.first-section{
+    display: flex;
+         /* width: 1175px; */
+         height: 410px;
+         margin-bottom:60px;
+         margin-top: 100px;
+         padding: 10px 0px;
+    justify-content: center;
+}
+.board-image img{
+    width: 565px;
+    height: 369px;
+    
+
+}
+.text-wraper{
+    display: flex;
+   
+}
+.button a{
+  
+   text-decoration: none;
+   color: #fff;
+   font: bold;
+   
+ 
+   
+}
+.button{
+    background-color: rgb(0, 103, 71);
+    text-align: center;
+    padding: 9px 0px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.button:hover{
+    background-color: #006e31;
+}
+
+
+/* 
+second section start------------------------------------- */
+.report-sec{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.av-whole-sec{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header-three-mid{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.available-tickets{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-icon{
+    font-size: 17px;
+    padding-right: 5px;
+    color: #fff;
+}
+.available-tickets h3{
+    font-size: 18px;
+    font: bold;
+    padding-top: 4px;
+    margin: 0px 0px 0px;
+   color: #fff;
+   
+}
+ .date h6{
+    margin: 0px 0px 0px;
+    color: #3f3f3f;
+}
+
+.ticker-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 560px;
+    padding: 14px 26px 14px 20px;
+    border-radius: 8px 8px 0 0;
+    background: linear-gradient(90.83deg,#003424 -.19%,#4cbc9a 102.47%);
+}
+.other-bg{
+    background-image: linear-gradient(90.83deg, rgb(188, 110, 36) -0.19%, rgb(244, 168, 97) 102.47%);
+}
+.number-parent{
+    display: flex;
+    width: 560px;
+    height: 54px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(238, 237, 237);
+    border-radius: 0px 0px 8px 8px;
+  
+    
+}
+.number h3{
+   color: rgb(2, 70, 45);
+
+}
+.number-title p{
+   width: 130px;
+   margin:0px 0px 0px;
+   font-size: 13px;
+   color: #023623;
+}
+
+/* gap section--- */
+.gap-section{
+    width: 1349px;
+    height: 300px;
+}
+
+/* instruction section */
+.instruction-board{
+    display: flex;
+    justify-content: space-around;
+    /* width: 1150px; */
+    height: 315px;
+    margin: 0px 0px 112px;
+}
+.ins-ele{
+
+  
+    align-items: center;
+    align-items: center;    
+}
+.ins-img img{
+    width: 173.77px;
+    height: 200px;
+    margin: 0px 0px 20px;
+}
+.select-img img{
+    width: 215px;
+    height: 200px;
+}
+.pay-img img{
+   width: 232.42px;
+   height: 200px;
+}
+.ins-h h2{
+      font-size: 27px;   
+      margin: 0px 0px 20px;
+      font-weight: 900;
+      font-family: 'Roboto', sans-serif;
+}
+.ins-para p{
+    width: 250px;
+    height: 48px;
+    font-size: 15px;
+}
+
+/* instruction details */
+.instruction-details-section{
+    display: flex;
+    justify-content: center;
+    margin: 0px 99.5px 140px;
+}
+.inst-image {
+   width: 469px;
+   height: 413px;
+}
+.inst-image img{
+    width: 413px;
+    height: 402px;
+    padding: 0px 15px;
+}
+.inst-header h2{
+     font-size: 27px;
+     font-weight: bold;
+     margin-bottom: 20px;
+}
+.instruction-details{
+    width: 640px;
+    height: 536px;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+.arrow-icon{
+    font-size: 30px;
+    margin: 0px 10px 0px 0px;
+    color: #006747;
+}
+.inst-details{
+    display: flex;
+    margin:0px 0px 15px;
+}
+.inst-details p{
+ margin: 0px;
+}
+.inst-detail p a{
+    color: #003424;
+    font-weight: bold;
+}
+
+/* logo section */
+.payment-companies-logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    border-top: 0.3px solid rgb(199, 199, 199);
+    border-bottom: 0.3px solid rgb(226, 226, 226);
+ 
+   
+}
+.payment-companies-logos img{
+    margin: 0px 28px 0px 0px;
+
+}
+.debit img{
+width:px;
+height: 43px;
+}
+.debit img{
+    width: 67.19px;
+    height: 43px;
+}
+.visa img{
+    width: 93px;
+    height: 33px;
+}
+.notes{
+    border-bottom: 3px solid rgb(7, 157, 73);
+}
+.notes h6{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 44px 44px;
+    
+
+}
+
+
+/* footer */
+.last-section{
+    height: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    width:55px ;
+    height: 55px;
+    margin-right: 8px;
+}
+.tag-line{
+    display: flex;
+}
+.bangla p{
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #006747;
+    font-weight: 400;
+    padding-top: 8px;
+    margin: 0px 0px 0px 0px;
+}
+.term-and-condition{
+    padding: 0px 15px;
+    margin-bottom: 34px;
+}
+.term-and-condition a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    color: #006747;
+
+}
+.developer-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: #006747;
+}
+.author p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
